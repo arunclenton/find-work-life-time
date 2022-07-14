@@ -29,7 +29,7 @@ function months() {
         }
 
     }
-    else if (m == 'jan' || m == 'march' || m == 'may' || m == 'july' || m == 'aug' || m == 'oct' || m == 'dec') {
+    else if (m == 1 || m == 3 || m == 5 || m == 7 || m == 9 || m == 10 || m == 12) {
         date.innerHTML = ''
         for (let i = 1; i <= 31; i++) {
             var option = document.createElement("option");
