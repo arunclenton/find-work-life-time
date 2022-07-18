@@ -77,3 +77,5 @@ var div1 = document.createElement('select')
     button.setAttribute('class','button')
     body.append(button)
     console.log(button)
+
+    var arun= document.getElementById('data')
