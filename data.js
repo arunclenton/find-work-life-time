@@ -87,14 +87,14 @@ function go() {
     for (i = 1; i <= balanceagemonth; i++) {
         console.log(i)
         var button = document.createElement('button')
-        button.setAttribute('style', 'background-color: green');
+        button.setAttribute('style', 'background-color: red');
          
         non.appendChild(button)
     }
     for (i = 1; i <= balanceageday; i++) {
         console.log(i)
         var button = document.createElement('button')
-        button.setAttribute('style', 'background-color: blue');
+        button.setAttribute('style', 'background-color: yellow');
          
         non.appendChild(button)
     }
