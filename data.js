@@ -78,22 +78,26 @@ function go() {
     for (i = 1; i <= furage; i++) {
          
         
-        console.log(i)
+        // console.log(i)
         var button = document.createElement('button')
-        button.setAttribute('style', 'background-color: red');
+        button.innerText="y";
+        button.setAttribute('style', 'background-color: green');
          
         non.appendChild(button)
+        console.log(non)
     }
     for (i = 1; i <= balanceagemonth; i++) {
-        console.log(i)
+        // console.log(i)
         var button = document.createElement('button')
+        button.innerText="m";
         button.setAttribute('style', 'background-color: red');
          
         non.appendChild(button)
     }
     for (i = 1; i <= balanceageday; i++) {
-        console.log(i)
+        // console.log(i)
         var button = document.createElement('button')
+        button.innerText="d";
         button.setAttribute('style', 'background-color: yellow');
          
         non.appendChild(button)
